@@ -28,3 +28,7 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
             + "}";
     return putRequest;
 }
+'''markdown
+
+\## Scope of Functionalities
+
