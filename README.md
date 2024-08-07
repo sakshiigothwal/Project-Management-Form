@@ -7,7 +7,11 @@ A form for managing project data with fields for Project ID, Project Name, Assig
 # Release History
 JSONPowerDB Version : 0.3.2
 
-TO create PUT request
+## createPUTRequest Function
+
+The `createPUTRequest` function is used to create a PUT request for storing data in JSONPowerDB. Below is the implementation of the function:
+
+```javascript
 function createPUTRequest(connToken, jsonObj, dbName, relName) {
     var putRequest = "{\n"
             + "\"token\" : \""
@@ -23,3 +27,4 @@ function createPUTRequest(connToken, jsonObj, dbName, relName) {
             + "\n"
             + "}";
     return putRequest;
+}
