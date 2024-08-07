@@ -5,9 +5,9 @@ A form for managing project data with fields for Project ID, Project Name, Assig
 - High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database.
 - Easy and fast to develop database applications without using any server-side programming/scripting or installing any kind of database.
 # Release History
-JSONPowerDB Version : 0.3.2
+### JSONPowerDB Version : 0.3.2
 
-### createPUTRequest Function
+#### createPUTRequest Function
 
 The `createPUTRequest` function is used to create a PUT request for storing data in JSONPowerDB. Below is the implementation of the function:
 
